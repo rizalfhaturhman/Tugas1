@@ -1,0 +1,18 @@
+bil1 = int(input("masukkan angka ke 1"))
+bil2 = int(input("masukkan angka ke 2"))
+operator = input("masukkan operasi yang diinginkan (+, - ,*, /)")
+
+if operator == "+":
+    hasil = bil1 + bil2
+    print(f"{bil1} + {bil2} = {hasil}")
+elif operator == "-":
+    hasil = bil1 - bil2
+    print(f"{bil1} - {bil2} = {hasil}")
+elif operator == "*":
+    hasil = bil1 * bil2
+    print(f"{bil1} * {bil2} = {hasil}")
+elif operator == "/":
+    hasil = bil1 / bil2
+    print(f"{bil1} / {bil2} = {hasil}")
+else:
+    print("operator tidak tersedia")
